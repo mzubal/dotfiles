@@ -8,10 +8,16 @@ chsh -s /usr/bin/zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.zshrc > ~/.zshrc
 source ~/.zshrc
-sudo wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/vimrc > ~/etc/vimrc
+sudo sh -c 'wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/vimrc > /etc/vimrc'
 xfconf-query -c xfce4-panel -p /panels/panel-0/position -n -t string -s "p=6;x=512;y=14"
 pacin python-pip
 pacin thefuck
 pacin httpie
 
 sudo pip install mycli
+sudo pip install pgcli
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+pacin chromium
