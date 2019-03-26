@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo pacman -Sy vim
+sudo pacman -Sy gvim
 sudo pacman -Sy docky
 sudo pacman -Sy terminator
 sudo pacman -Sy zsh
