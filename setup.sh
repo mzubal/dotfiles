@@ -17,6 +17,8 @@ pacin chromium
 
 # Dock
 sudo pacman -Sy docky
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/docky-config.xml > ~/docky-config.xml
+sudo gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults --load ~/docky-config.xml
 
 # Terminal
 sudo pacman -Sy terminator
