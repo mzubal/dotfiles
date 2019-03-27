@@ -141,7 +141,7 @@
       <key>Docky/Interface/DockPreferences/Dock1/IconSize</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/IconSize</schema_key>
       <value>
-        <int>35</int>
+        <int>40</int>
       </value>
     </entry>
     <entry>
