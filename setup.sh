@@ -20,6 +20,7 @@ sudo pacman -Sy docky
 
 # Terminal
 sudo pacman -Sy terminator
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/terminator-config > ~/.config/terminator/config
 
 # Moving xfce panel to top
 xfconf-query -c xfce4-panel -p /panels/panel-0/position -n -t string -s "p=6;x=512;y=14"
