@@ -7,6 +7,7 @@ chsh -s /usr/bin/zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.zshrc > ~/.zshrc
 source ~/.zshrc
+exit
 
 # gvim to integrate clipboard with vim, the vimrc to enable clipboard and map ctrl-c to copy from vim
 pacin gvim
