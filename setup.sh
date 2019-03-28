@@ -33,13 +33,14 @@ xfconf-query -c xfwm4 -p /general/show_dock_shadow -n -t string -s false
 mkdir -p ~/.themes
 mkdir -p ~/.icons
 https://dl.opendesktop.org/api/files/download/id/1536340023/s/d1b20cdfad6afbdf4140d1587f601b3915fd2bbe155cd8c5acb538ccfe3a2abc67afac2c6ba3aaf74a83817d1b6fb4aef7c9b4ba778e5f19e62b80eaff837b78/t/1553707589/u//McOS-XFCE-Edition-II-1.tar.xz
-wget -O ~/Downloads/McOS-XFCE-theme.tar.xz "https://dl.opendesktop.org/api/files/download/id/1536340023/s/860fda334d70bb5ae835803bda31139c48a7d8e29ce4393bdacbe58683d0eb21297dab3fd7b995b8e8f6ee101a3811f8d6c85c0941583dac3e5dbf19ab446e90/t/1553700391/u//McOS-XFCE-Edition-II-1.tar.xz"
-wget -O ~/Downloads/McOS-XFCE-icons.tar.xz "https://dl.opendesktop.org/api/files/download/id/1553260995/s/5ced1b4d52c63b9ce180047989669327f6007c262e0c73f3876220ffb1bba9596bd0ee7d5f910b7ab05ee7e8e70783d9c61504386855435b0361460ee04f8902/t/1553701260/u//dark-mode.tar.xz"
+wget -O ~/Downloads/McOS-XFCE-theme.tar.xz https://raw.githubusercontent.com/mzubal/dotfiles/master/McOS-XFCE-theme.tar.xz
+wget -O ~/Downloads/McOS-XFCE-icons.tar.xz https://raw.githubusercontent.com/mzubal/dotfiles/master/McOS-XFCE-icons.tar.xz
 tar -C ~/.icons -xf ~/Downloads/McOS-XFCE-icons.tar.xz
 tar -C ~/.themes -xf ~/Downloads/McOS-XFCE-theme.tar.xz
 xfconf-query -c xsettings -p /Net/ThemeName -s "McOS-XFCE-Edition-II-1"
 xfconf-query -c xsettings -p /Net/IconThemeName -s "dark-mode"
 xfconf-query -c xfwm4 -p /general/button_layout -n -t string -s "CHM|OS"
+xfconf-query -c xfwm4 -p /general/theme -n -t string -s "McOS-XFCE-Edition-II-1"
 
 # CLI tools
 pacin python-pip
