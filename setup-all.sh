@@ -33,6 +33,13 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s "dark-mode"
 xfconf-query -c xfwm4 -p /general/button_layout -n -t string -s "CHM|OS"
 xfconf-query -c xfwm4 -p /general/theme -n -t string -s "McOS-XFCE-Edition-II-1"
 
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/image-path --set ~/Downloads/annapurna_1920x1080.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/last-image --set ~/Downloads/annapurna_1920x1080.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace0/last-image --set ~/Downloads/annapurna_1920x1080.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace1/last-image --set ~/Downloads/annapurna_1920x1080.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace2/last-image --set ~/Downloads/annapurna_1920x1080.jpg
+xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace3/last-image --set ~/Downloads/annapurna_1920x1080.jpg
+
 # CLI tools
 pacin python-pip
 sudo pip install mycli
