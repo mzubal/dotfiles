@@ -30,7 +30,7 @@ tar -C ~/.icons -xf ~/Downloads/McOS-XFCE-icons.tar.xz
 tar -C ~/.themes -xf ~/Downloads/McOS-XFCE-theme.tar.xz
 xfconf-query -c xsettings -p /Net/ThemeName -s "McOS-XFCE-Edition-II-1"
 xfconf-query -c xsettings -p /Net/IconThemeName -s "dark-mode"
-xfconf-query -c xfwm4 -p /general/button_layout -n -t string -s "CHM|OS"
+xfconf-query -c xfwm4 -p /general/button_layout -n -t string -s "CHM|TOS"
 xfconf-query -c xfwm4 -p /general/theme -n -t string -s "McOS-XFCE-Edition-II-1"
 
 xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitor0/image-path --set ~/Downloads/annapurna_1920x1080.jpg
