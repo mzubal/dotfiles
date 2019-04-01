@@ -46,6 +46,7 @@ sudo pip install mycli
 sudo pip install pgcli
 pacin thefuck
 pacin httpie
+pacin tmux
 
 # Ansible
 pacin ansible
