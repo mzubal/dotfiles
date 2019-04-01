@@ -48,6 +48,12 @@ pacin thefuck
 pacin httpie
 pacin tmux
 
+# tmux config
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+
 # Ansible
 pacin ansible
 
