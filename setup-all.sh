@@ -58,6 +58,7 @@ cp .tmux/.tmux.conf.local .
 pacin i3-gaps
 pacin i3-blocks
 pacin rofi
+pacin compton
 # TODO alttab
 
 # Ansible
