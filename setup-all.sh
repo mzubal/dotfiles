@@ -54,6 +54,12 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
+# i3-gaps, i3-blocks, alttab, rofi
+pacin i3-gaps
+pacin i3-blocks
+pacin rofi
+# TODO alttab
+
 # Ansible
 pacin ansible
 
