@@ -61,6 +61,7 @@ pacin rofi
 pacin compton
 
 # atltab
+pacin uthash
 cd
 git clone https://github.com/sagb/alttab.git 
 cd alttab
