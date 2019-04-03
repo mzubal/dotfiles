@@ -41,9 +41,6 @@ xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual
 xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitorVirtual1/workspace3/last-image --set ~/Downloads/annapurna_1920x1080.jpg
 
 # CLI tools
-pacin python-pip
-sudo pip install mycli
-sudo pip install pgcli
 pacin thefuck
 pacin httpie
 pacin tmux
@@ -54,25 +51,9 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
-# i3-gaps, i3-blocks, alttab, rofi
-pacin i3-gaps
-pacin i3-blocks
-pacin rofi
-pacin compton
-
-# atltab
-pacin uthash
-cd
-git clone https://github.com/sagb/alttab.git 
-cd alttab
-./bootstrap.sh
-./configure && sudo make install
-
 # Ansible
 pacin ansible
 
 # SDKMan
-pacin unzip
-pacin zip
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
