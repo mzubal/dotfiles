@@ -3,6 +3,8 @@
 To set up the `dotfiles` just run the appropriate snippet in the
 terminal:
 
-| OS | Snippet |
+| Action | Script |
 |:---|:---|
-| `Manjaro`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-zsh.sh)"` `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-all.sh)"` |
+| `Manjaro zsh`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-zsh.sh)"` |
+| `Manjaro xfce`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-xfce.sh)"` |
+| `Manjaro i3`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-i3.sh)"` |
