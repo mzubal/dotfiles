@@ -5,4 +5,4 @@ terminal:
 
 | OS | Snippet |
 |:---|:---|
-| `Manjaro`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-zsh.sh)"` `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-all.sh)"` |
+| `Manjaro`     | `bash -c "$(wget -qO - https://git.io/fjIiM)"` `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-all.sh)"` |
