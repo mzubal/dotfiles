@@ -59,7 +59,13 @@ pacin i3-gaps
 pacin i3-blocks
 pacin rofi
 pacin compton
-# TODO alttab
+
+# atltab
+cd
+git clone https://github.com/sagb/alttab.git 
+cd alttab
+./bootstrap.sh
+./configure && sudo make install
 
 # Ansible
 pacin ansible
