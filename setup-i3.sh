@@ -19,7 +19,7 @@ pacin tmux --noconfirm
 pacin rofi --noconfirm
 
 # i3 config
-sh -c 'wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/i3.config > ~/.i3/config'
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/i3.config > ~/.i3/config
 
 # CLI tools
 pacin thefuck --noconfirm
