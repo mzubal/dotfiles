@@ -7,4 +7,4 @@ terminal:
 |:---|:---|
 | `Manjaro zsh`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-zsh.sh)"` |
 | `Manjaro xfce`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-xfce.sh)"` |
-| `Manjaro i3`     | `bash -c "$(wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-i3.sh)"` |
+| `Manjaro i3`     | `wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/setup-i3.sh > setup-i3.zsh; source setup-i3.zsh` |
