@@ -21,8 +21,9 @@ cd
 pacin tmux --noconfirm
 pacin rofi --noconfirm
 
-# i3 config
+# i3 config / compton config
 wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/i3.config > ~/.i3/config
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/compton.conf > ~/.config/compton.conf
 
 # CLI tools
 pacin thefuck --noconfirm
