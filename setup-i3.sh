@@ -2,9 +2,6 @@
 pacin freetype2 --noconfirm
 pacin chromium --noconfirm
 
-# .profile
-wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.profile > ~/.profile
-
 # gvim to integrate clipboard with vim, the vimrc to enable clipboard and map ctrl-c to copy from vim
 pacin gvim --noconfirm
 sudo sh -c 'wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/vimrc > /etc/vimrc'
@@ -21,9 +18,11 @@ cd
 pacin tmux --noconfirm
 pacin rofi --noconfirm
 
-# i3 config / compton config
+# .profile / i3 config / compton config / Xresources
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.profile > ~/.profile
 wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/i3.config > ~/.i3/config
 wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/compton.conf > ~/.config/compton.conf
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.Xresources > ~/.Xresources
 
 # CLI tools
 pacin thefuck --noconfirm
