@@ -2,6 +2,9 @@
 pacin freetype2 --noconfirm
 pacin chromium --noconfirm
 
+# .profile
+wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.profile > ~/.profile
+
 # gvim to integrate clipboard with vim, the vimrc to enable clipboard and map ctrl-c to copy from vim
 pacin gvim --noconfirm
 sudo sh -c 'wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/vimrc > /etc/vimrc'
