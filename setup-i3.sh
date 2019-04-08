@@ -40,3 +40,7 @@ pacin ansible --noconfirm
 pacin unzip --noconfirm
 pacin zip --noconfirm
 curl -s "https://get.sdkman.io" | bash
+
+# Docker
+pacin docker
+sudo usermod -aG docker manjaro
