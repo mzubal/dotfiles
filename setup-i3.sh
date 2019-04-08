@@ -30,6 +30,8 @@ wget -qO - https://raw.githubusercontent.com/mzubal/dotfiles/master/.Xresources 
 # CLI tools
 pacin thefuck --noconfirm
 pacin httpie --noconfirm
+yay -S mycli
+yay -S pgcli
 
 # Ansible
 pacin ansible --noconfirm
